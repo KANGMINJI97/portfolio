@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ'portplio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <button data-animation-scroll="true" data-target="#main">민지</button>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#about">About</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#features">Features</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <h4>Welcome</h4>
+            <h2>I'M A <span>Front-End Developer</span></h2>
+            <li>책임감과 협동심이 강하고</li>
+            <li>열정이 가득한.</li>
+            <li>신입 프론트엔드 개발자 강민지 입니다!</li>
+        </div>
+    </main>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="title">
+                <h4>Who Am I</h4>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-self">
+                <div class="left">
+                    <img src="./1.jpg" alt="profile Photo">
+                </div>
+                <div class="right">
+                    <h3>👩🏻‍💻 안녕하십니까! <br> <strong>저는 프론트엔드 개발자에 지원합니다!</strong></h3>
+                    <ol>
+                        <li> 1.무언가를 만들어 결과를 완성하여 자신에게 기뻐하는
+                            <br> 모습에 흥미를 느껴 코딩공부를 열심히 배우기 시작했습니다.
+                        </li>
+                        <br>
+                        <li>2.주어진 업무를 책임지고 해쳐나아가며, 제 힘으로만
+                            해결하기 <br> 버거울 때에는 주변인들에게 조언을 구하겠습니다.
+                        </li>
+                        <br>
+                        <li> 3.항상 배우고 습득하는 자세로 어제보다 나은 개발자가 되겠습니다.👩🏻‍💻
+                        </li>
+                        <br>
+                        <li>
+                            4.저는 배우려는 의지가 강하며 기억력 또한 매우 좋습니다.
+                            <br>
+                            <br> 5.평소에 주변으로부터 끈기가 있고
+                            쉽게 적응한다는 평가를 많이 받습니다.
+                        </li>
+                    </ol>
+
+                </div>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="do">
+        <div class="container">
+            <div class="title">
+                <h4>Features</h4>
+                <h2>What I Do</h2>
+            </div>
+        </div>
+        <h2>What I Do</h2>
+        </div>
+        <div class="do-me">
+            <div class="do-inner">
+                <div class="icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="content">
+                    <h3>Html5</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <div class="icon ">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="content">
+                        <h3>CSS</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="do-me">
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="content">
+                            <h3>JavaScript</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="title">
+                <h4>CONTACT</h4>
+                <h2>Contact With Me</h2>
+            </div>
+            <br>
+                <div class="all">
+                    <div class="card">
+                
+                        <h3>Phone 📱</h3>
+                        <p>010-5176-6864</p>
+                
+                    </div>
+                    <div class="card">
+                        <h3>Email 📧</h3>
+                        <p>alswl686472@gmail.com</p>
+                    </div>
+                    <div class="card">
+                        <h3>Address 🏠</h3>
+                        <p>대구 달서구 이곡동 1347-1번지 502호</p>
+                    </div>
+                </div>
+                </div>
+
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Noto Sans KR",sans-serif;
+
+    }
+
+    a,
+    a:link,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 10px;
+    }
+
+    header button {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    header h1 button {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    header nav ul li button {
+        font-size: 1.2rem;
+    }
+
+    header.active {
+        background-color: rgb(247, 247, 249);
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+        color: black;
+        background-image: url("./5.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    main h4 {
+        font-size: 2rem;
+    }
+
+    main h2 {
+        font-size: 3.5rem;
+        margin: 2rem 0;
+        letter-spacing: 3px;
+    }
+
+    main p {
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 1.25rem;
+    }
+
+    main h2 span::after {
+        content: "";
+        height: 40px;
+        width: 3px;
+        background-color: #fff;
+        display: inline-block;
+        animation: blink .7s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    main h2 {
+        letter-spacing: 3px;
+        font-family: "Varela Round", sans-serif;
+    }
+
+    section {
+        font-family: "Poppins", sans-serif;
+        padding: 5rem 0;
+    }
+
+    section:nth-child(2n) {
+        background-color: #f8f8f8;
+    }
+
+    section-title {
+        margin-bottom: 3rem;
+    }
+
+    section.title h4 {
+        font-size: 1.35rem;
+        color: #ed4848;
+        position: relative;
+    }
+
+    section .title h2 {
+        font-size: 3.5rem;
+    }
+
+    section .title p {
+        font-size: 1.15rem;
+    }
+
+    section .about-self::after {
+        content: "";
+        clear: both;
+        display: black;
+        display: flex;
+    }
+
+    section .about-self .left {
+        width: 30%;
+        float: left;
+    }
+
+    section .about-self .left img {
+        max-width: 85%;
+    }
+
+    section .about-self .right {
+        width: 70%;
+        float: left;
+        padding: 0 2rem;
+        font-size: 1.25rem;
+    }
+
+    section .about-slef .right h3 {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
+
+    section .about-self .right h3 strong {
+        color: #ed4848;
+    }
+
+    section .about-self .right p {
+        font-size: 1.10rem;
+        margin: 1rem 0;
+
+    }
+
+    section .about-self .right .social a {
+        font-size: 2.5rem;
+        margin-right: 0.2rem;
+    }
+
+    section .about_avatar {
+        width: 35vh;
+        height: 35vh;
+        margin-right: 30px;
+        border-radius: 50%;
+        border: 2px solid var(--color-white);
+    }
+
+    
+
+    section .do-me::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    section .do-me .do-inner {
+        background-color: #fff;
+        width: 30%;
+        padding: 2rem;
+        float: left;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    section .do-me .do-inner:last-child {
+        margin-right: 0;
+    }
+
+    section .do-me .do-inner .icon i {
+        font-size: 2.5rem;
+        color: #ff6a6a;
+    }
+
+    section .do-me .do-inner .content h3 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    section .do-me .do-inner .content p {
+        font-size: 1.15rem;
+    }
+
+    section .do-me .do-inner:hover {
+        background-color: lightcoral;
+        color: white;
+    }
+
+    section .do-me .do-inner:hover i {
+        color: white;
+    }
+    section.contact .all {
+        
+        border: 1px solid #ccc;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+ 
+
+
+</style>
+</html>
